@@ -1,0 +1,5 @@
+roslaunch airbot_play_launch airbot_play_moveit.launch target_moveit_config:=airbot_play_v2_1_config use_basic:=true use_rviz:=true
+
+source ~/."${SHELL##*/}"rc  # 也可以重启终端使路径生效，主要是针对仿真的路径配置
+source devel/setup."${SHELL##*/}"
+echo "source $(pwd)/devel/setup."${SHELL##*/}"" >> ~/."${SHELL##*/}"rc
