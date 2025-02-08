@@ -1,4 +1,4 @@
-# Git CMD
+# Git Cmd
 
 ## 创建
 
@@ -26,7 +26,11 @@
 ## 本地推送
 
 <code>git add .</code> # 1. 把所有改动之后的文件需要加到git缓存下面才可以继续git push
+
+
 <code>git commit -m 'xxx'</code>  # 2. 必须还要执行commit操作
+
+
 <code>git push origin main</code> # 3. push!
 
 
@@ -36,5 +40,6 @@
 <code> git fetch </code>
 
 
-<code>  git pull origin main </code>
+<code> git pull origin main </code>
 
+<h1>This is a heading</h1>
